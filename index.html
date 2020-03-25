@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="board">
+            <div id="crossword"></div>
+            <div id="numbers"></div>
+        </div>
+        <div id="hints">
+            <div id="across" class="across hints">
+                <h3>Across</h3>
+            </div>
+            <div id="down" class="down hints">
+                <h3>Down</h3>
+            </div>
+        </div>
+        <button id="finish_button" class="disabled" onclick="evaluateUserArray()">Finish</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
